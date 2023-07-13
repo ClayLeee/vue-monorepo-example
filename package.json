@@ -4,12 +4,19 @@
   "description": "A VueJS + Lerna Monorepo Project",
   "main": "index.js",
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "clean": "lerna clean --yes && lerna exec --rm -rf dist",
+    "lint": "lerna exec -- yarn lint",
+    "test": "lerna exec -- yarn test",
+    "refresh": "yarn && lerna bootstrap",
     "admin": "cd ./modules/admin && npm run serve",
     "admin:build": "cd ./modules/admin && npm run build",
     "admin:test": "cd ./modules/admin && npm run test",
-    "test": "lerna exec -- npm run test",
-    "lint": "lerna exec -- npm run lint"
+    "dev:addition": "lerna run serve --stream --scope=@addition/ui",
+    "build:addition": "lerna run build --stream --scope=@addition/ui",
+    "test:addition": "lerna run test --stream --scope=@addition/ui",
+    "dev:multiplication": "lerna run serve --stream --scope=@multiplication/ui",
+    "build:multiplication": "lerna run build --stream --scope=@multiplication/ui",
+    "test:multiplication": "lerna run test --stream --scope=@multiplication/ui"
   },
   "repository": {
     "type": "git",

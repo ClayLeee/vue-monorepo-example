@@ -1,6 +1,6 @@
 {
     "packages": [
-      "modules/*"
+      "apps/*"
     ],
     "version": "independent"
   }
