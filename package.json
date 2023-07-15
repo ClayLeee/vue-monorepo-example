@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A VueJS + Lerna Monorepo Project",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "clean": "lerna clean --yes && lerna exec --rm -rf dist",
     "lint": "lerna exec -- yarn lint",

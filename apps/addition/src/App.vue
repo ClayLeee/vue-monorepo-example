@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view />
+    {{ addition(a, b) }}
   </div>
 </template>
 
 <script>
-import Navbar from '@shared/components/Navbar'
+import { addition } from '@shared/ui'
 
 export default {
   name: 'App',
-  components: {
-    Navbar
+  data() {
+    return {
+      a: 1,
+      b: 2
+    }
+  },
+  computed: {
+    addition() {
+      return (a, b) => addition(a, b)
+    }
   }
 }
 </script>

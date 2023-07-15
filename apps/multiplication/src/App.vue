@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view />
+    {{ multiplication(a, b) }}
   </div>
 </template>
 
 <script>
-import Navbar from '@shared/components/Navbar'
+import { multiplication } from '@shared/ui'
 
 export default {
   name: 'App',
-  components: {
-    Navbar
+  data() {
+    return {
+      a: 3,
+      b: 4
+    }
+  },
+  computed: {
+    multiplication() {
+      return (a, b) => multiplication(a, b)
+    }
   }
 }
 </script>
