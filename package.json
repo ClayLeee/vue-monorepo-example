@@ -22,21 +22,13 @@
     "build:multiplication": "lerna run build --stream --scope=@multiplication/ui",
     "test:multiplication": "lerna run test --stream --scope=@multiplication/ui"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vcpablo/vuejs-lerna-monorepo-sample.git"
-  },
   "keywords": [
     "vuejs",
     "monorepo",
     "lerna"
   ],
-  "author": "Pablo Veiga <vcpablo@gmail.com>",
+  "author": "Clay Lee <noitseuq.rm@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vcpablo/vuejs-lerna-monorepo-sample/issues"
-  },
-  "homepage": "https://github.com/vcpablo/vuejs-lerna-monorepo-sample#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.26.0",
