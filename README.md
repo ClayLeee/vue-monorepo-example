@@ -4,32 +4,36 @@ This is repository supports the content of the article: [VueJS - Building a basi
 
 ## Project setup (installs all root dependencies and all dependencies of all inner modules)
 ```
-npm install
+yarn refresh
 ```
 
-### Compiles and hot-reloads `admin` module for development
+### Compiles and hot-reloads `addition` module for development
 ```
-npm run admin
-```
-
-### Compiles and minifies `admin` module for production
-```
-npm run admin:build
+yarn dev:addition
 ```
 
-### Tests `admin` module
+### Compiles and minifies `addition` module for production
 ```
-npm run admin:test
-```
-
-### Lints and fixes `admin` module files
-```
-npm run admin:lint
+yarn build:addition
 ```
 
-### Tests all modules
+### Tests `addition` module
 ```
-npm run admin:test
+yarn test:addition
+```
+### Compiles and hot-reloads `multiplication` module for development
+```
+yarn dev:multiplication
+```
+
+### Compiles and minifies `multiplication` module for production
+```
+yarn build:multiplication
+```
+
+### Tests `multiplication` module
+```
+yarn test:multiplication
 ```
 
 ### Lints and fixes all module files
