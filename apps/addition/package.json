@@ -1,6 +1,6 @@
 {
   "name": "@addition/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,9 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@shared/ui": "^0.1.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "@shared/ui": "0.1.0"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
