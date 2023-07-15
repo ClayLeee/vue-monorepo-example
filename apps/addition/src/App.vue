@@ -1,6 +1,15 @@
 <template>
-  <div id="app">
-    {{ addition(a, b) }}
+  <div id="app" style="
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: red;"
+  >
+    <div>This is addition project</div>
+    <div>a = {{ a }}, b= {{ b }}</div>
+    <div>a + b = {{ addition(a, b) }}</div>
   </div>
 </template>
 
