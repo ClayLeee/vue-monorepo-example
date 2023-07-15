@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { multiplication } from '@shared/ui'
+import { multiplication } from '@shared/utils/calculation'
 
 export default {
   name: 'App',

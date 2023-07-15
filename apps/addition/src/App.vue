@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { addition } from '@shared/ui'
+import { addition } from '@shared/utils/calculation'
 
 export default {
   name: 'App',
