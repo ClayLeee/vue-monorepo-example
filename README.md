@@ -38,7 +38,7 @@ yarn test:multiplication
 
 ### Lints and fixes all module files
 ```
-npm run lint
+yarn lint
 ```
 
 ### Customize configuration
