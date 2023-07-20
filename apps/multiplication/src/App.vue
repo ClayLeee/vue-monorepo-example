@@ -8,7 +8,7 @@
     color: red;"
   >
     <div>This is multiplication project</div>
-    <div>a = {{ a }}, b= {{ b }}</div>
+    <div>a = {{ a }}, b = {{ b }}</div>
     <div>a * b = {{ multiplication(a, b) }}</div>
     <br>
     <br>

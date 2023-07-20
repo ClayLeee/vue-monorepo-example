@@ -8,7 +8,7 @@
     color: red;"
   >
     <div>This is addition project</div>
-    <div>a = {{ a }}, b= {{ b }}</div>
+    <div>a = {{ a }}, b = {{ b }}</div>
     <div>a + b = {{ addition(a, b) }}</div>
   </div>
 </template>
